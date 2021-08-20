@@ -65,7 +65,7 @@ ALTER TABLE `post`
   ADD PRIMARY KEY (`id`),
   ADD KEY `user_id` (`user_id`);
 
-ALTER TABLE `session`
+ALTER TABLE `session`qq
   ADD PRIMARY KEY (`sid`);
 
 ALTER TABLE `user`
