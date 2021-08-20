@@ -5,5 +5,4 @@ Project using handlebars as the template, Sequelize as the ORM, and express pack
 
 -node server.js
 
-/walkthrough.mp4
-
+Video in main folder of walkthrough
