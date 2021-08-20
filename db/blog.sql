@@ -12,9 +12,9 @@ CREATE TABLE `comment` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `comment` (`id`, `user_id`, `post_id`, `comment_text`, `created_at`, `updated_at`) VALUES
-(1, 2, 1, 'hello', '2021-08-14 14:07:33', '2021-08-14 14:07:33'),
-(2, 1, 1, 'yoo', '2021-08-14 14:08:06', '2021-08-14 14:08:06'),
-(3, 2, 1, 'hello there', '2021-08-14 14:11:49', '2021-08-14 14:11:49');
+(1, 2, 1, 'hello', '2021-08-19 14:07:33', '2021-08-19 14:07:33'),
+(2, 1, 1, 'yoo', '2021-08-19 14:08:06', '2021-08-19 14:08:06'),
+(3, 2, 1, 'hello there', '2021-08-19 14:11:49', '2021-08-19 14:11:49');
 
 
 CREATE TABLE `post` (
@@ -28,7 +28,7 @@ CREATE TABLE `post` (
 
 
 INSERT INTO `post` (`id`, `title`, `post_content`, `user_id`, `created_at`, `updated_at`) VALUES
-(1, 'Seroxat CR', 'jasdasd', 2, '2021-08-14 14:04:37', '2021-08-14 14:04:37');
+(1, 'Admin CR', 'jasdasd', 2, '2021-08-19 14:04:37', '2021-08-19 14:04:37');
 
 
 CREATE TABLE `session` (
@@ -42,7 +42,7 @@ CREATE TABLE `session` (
 
 INSERT INTO `session` (`sid`, `expires`, `data`, `createdAt`, `updatedAt`) VALUES
 ('AA8BsFq-20AVpUZh0nJWWK8TFFG_ZvWf', '2021-08-14 14:26:13', '{\"cookie\":{\"originalMaxAge\":600000,\"expires\":\"2021-08-14T14:26:13.274Z\",\"httpOnly\":true,\"path\":\"/\"}}', '2021-08-14 14:16:13', '2021-08-14 14:16:13'),
-('c4bSOWF-U8p1lbVuzwT8WhiCdVoQW-rG', '2021-08-14 14:18:06', '{\"cookie\":{\"originalMaxAge\":600000,\"expires\":\"2021-08-14T14:18:06.798Z\",\"httpOnly\":true,\"path\":\"/\"},\"user_id\":1,\"username\":\"wajeeh123\",\"loggedIn\":true}', '2021-08-14 14:07:47', '2021-08-14 14:08:06');
+('c4bSOWF-U8p1lbVuzwT8WhiCdVoQW-rG', '2021-08-14 14:18:06', '{\"cookie\":{\"originalMaxAge\":600000,\"expires\":\"2021-08-14T14:18:06.798Z\",\"httpOnly\":true,\"path\":\"/\"},\"user_id\":1,\"username\":\"admin123\",\"loggedIn\":true}', '2021-08-19 14:07:47', '2021-08-19 14:08:06');
 
 CREATE TABLE `user` (
   `id` int(11) NOT NULL,
